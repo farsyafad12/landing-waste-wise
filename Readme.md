@@ -26,7 +26,7 @@
   - Web App (HTML, CSS, JS) untuk Landing Page
 
 ## 🌍 Demo & Deployment
-- **Live Demo:** [Klik di sini](https://waste-wise.vercel.app)
+- **Live Demo:** [Klik di sini](https://aliyah-waste-wise.vercel.app)
 - **Repository Landing Page:** [Klik di sini](https://github.com/farsyafad12/landing-waste-wise)
 
 ## 📌 Kontribusi
@@ -34,7 +34,7 @@ Kami terbuka untuk kontribusi! Jika ingin berkontribusi, bisa dalam bentuk pembu
 
 ## 📧 Kontak
 📩 Email: alfarisiahnaf@gmail.com
-🌐 Website: [FarSyaFad ID Official Website](https://your-website.com)  
+🌐 Website: [FarSyaFad ID Official Website](https://farsyafad.tech)  
 📱 Instagram: [My Instagram Account](https://instagram.com/farsyafad_official)
 
 ---
