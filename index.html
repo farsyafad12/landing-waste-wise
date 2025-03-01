@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Smart Trash With Reward System | WasteWise+</title>
+  <meta name="description" content="Kami adalah tim inovator yang mengembangkan WasteWise+, tempat sampah pintar berbasis IoT dengan sistem reward. Dengan teknologi sensor, sistem ini dapat memilah sampah otomatis dan memberikan poin yang bisa ditukar dengan hadiah. Misi kami adalah membuat pengelolaan sampah lebih mudah, menyenangkan, dan bermanfaat bagi lingkungan. 🌱♻️">
+  <meta name="keywords" content="Tempat Sampah Pintar, Smart Bin, IoT Waste Management, Smart Waste System, Recycle Reward, Sampah dengan Poin, Pengelolaan Sampah Cerdas, Eco-Friendly Bin, Teknologi IoT Sampah, Daur Ulang Otomatis, Green Technology, Sustainability, Smart Trash, Waste Sorting System, Reward Recycling, Inovasi Lingkungan, Tempat Sampah Digital, Smart Waste Segregation">
+  <meta name="author" content="FarSyaFad Tech">
+  <meta property="og:title" content="Smart Trash With Reward System | FarSyaFad Tech">
+  <meta property="og:description" content="Kami adalah tim inovator yang mengembangkan WasteWise+, tempat sampah pintar berbasis IoT dengan sistem reward. Dengan teknologi sensor, sistem ini dapat memilah sampah otomatis dan memberikan poin yang bisa ditukar dengan hadiah. Misi kami adalah membuat pengelolaan sampah lebih mudah, menyenangkan, dan bermanfaat bagi lingkungan. 🌱♻️">
+  <meta property="og:image" content="assets/img/logo.png">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="/" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">WasteWise+</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#features">Keuggulan</a></li>
+          <li><a href="#interface">Tampilan Aplikasi</a></li>
+          <li><a href="#testimonials">Testimoni</a></li>
+          <li><a href="#faq">F.A.Q</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="wa.me/6288293898965" target="_blank">Hubungi Kami</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="home" class="hero section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="img-homepage-trash">
+          </div>
+          <div class="col-lg-6  d-flex flex-column justify-content-center text-center text-md-start" data-aos="fade-in">
+            <h2>"Buang Sampah, Dapat Hadiah! 🎉♻️"</h2>
+            <p>Ubah kebiasaan membuang sampah jadi lebih bermanfaat dengan WasteWise+. Pilah sampah secara otomatis,
+              kumpulkan poin, dan tukarkan dengan hadiah menarik! 🌍✨</p>
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#" class="download-btn"><i class="bi bi-building"></i><span>Kerjasama</span></a>
+              <a href="#" class="download-btn"><i class="bi bi-person-fill"></i><span>Login Pengguna</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="about section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tentang Kami</h2>
+        <p>WasteWise+ adalah solusi inovatif untuk mengubah cara kita mengelola sampah demi masa depan yang lebih hijau.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Dengan teknologi IoT dan sistem reward, kami menciptakan tempat sampah pintar yang dapat memilah sampah
+              secara otomatis dan memberikan poin kepada pengguna sebagai apresiasi atas kepedulian mereka terhadap
+              lingkungan.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Sebuah Alat Berbasis IoT Yang Dapat Membantu Memilah
+                  Sampah</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Sebuah Sistem Reward Yang Friendly Dan Mudah
+                  Digunakan</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Teknologi Cukup Canggih Dengan Budget Yang Ramah Di
+                  Kantong</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Misi kami adalah menjadikan pengelolaan sampah lebih mudah, menyenangkan, dan berdampak positif bagi
+              lingkungan. Dengan <b>WasteWise+</b>, kami percaya bahwa setiap orang dapat menjadi bagian dari perubahan
+              menuju dunia yang lebih hijau. 🌍♻️</p>
+            <a href="#" class="read-more"><span>Jadi Bagian Dari Kami Sekarang</span><i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="features" class="features section">
+      <section id="features" class="features section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Keunggulan</h2>
+          <p>Solusi terintegrasi antara mesin pintar dan aplikasi untuk pengalaman daur ulang yang lebih mudah dan
+            menguntungkan!</p>
+        </div>
+
+        <div class="container">
+
+          <div class="row gy-5">
+
+            <div class="col-xl-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/features.jpg" class="img-fluid" alt="img-keunggulan">
+            </div>
+
+            <div class="col-xl-7 d-flex" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="row align-self-center gy-5">
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-recycle"></i>
+                  <div>
+                    <h4>Pemilahan Sampah Otomatis</h4>
+                    <p>Otomatis memilah sampah berdasarkan jenisnya dengan sensor canggih.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-gift"></i>
+                  <div>
+                    <h4>Reward System</h4>
+                    <p>Kumpulkan poin setiap kali membuang sampah dan tukarkan dengan voucher melalui aplikasi.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-bar-chart"></i>
+                  <div>
+                    <h4>Real-Time App</h4>
+                    <p>Pantau jumlah sampah yang sudah kamu buang, cek saldo poin, dan lihat impact kontribusimu dari
+                      aplikasi.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-database-up"></i>
+                  <div>
+                    <h4>Teknologi Terbaru</h4>
+                    <p>Menggunakan kombinasi sensor IR, proximity, dan AI sederhana untuk memaksimalkan efisiensi tanpa
+                      biaya mahal.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-window-stack"></i>
+                  <div>
+                    <h4>Desain User-Friendly</h4>
+                    <p>Baik mesin maupun aplikasi dirancang agar mudah diakses oleh siapa saja, dari anak-anak hingga
+                      orang dewasa.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box">
+                  <i class="bi bi-wallet"></i>
+                  <div>
+                    <h4>Kontribusi Nyata</h4>
+                    <p>Setiap sampah yang kamu buang melalui WasteWise+ akan dikelola dengan lebih baik, membantu
+                      mengurangi limbah.</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section id="feature-details" class="feature-details section">
+        <div class="container">
+          <div class="row gy-4 align-items-center features-item">
+            <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <img src="assets/img/features-1.png" class="img-fluid" alt="img-keunggulan-1">
+            </div>
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+              <h3>Inovasi IoT Untuk Pemilahan Sampah & Monitoring Online</h3>
+              <p class="fst-italic">
+                Kami menghadirkan solusi pintar berbasis IoT yang mempermudah proses pemilahan dan monitoring sampah
+                secara real time.
+              </p>
+              <ul>
+                <li><i class="bi bi-check"></i><span><b>Sistem Reward</b> untuk meningkatkan kesadaran dan partisipasi
+                    masyarakat.</span></li>
+                <li><i class="bi bi-check"></i><span><b>Menerima Berbagai Jenis Sampah Daur Ulang</b> untuk
+                    keberlanjutan lingkungan.</span></li>
+                <li><i class="bi bi-check"></i><span><b>Akses Mudah Melalui Web App</b> untuk pemantauan kapan saja, di
+                    mana saja.</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row gy-4 align-items-center features-item">
+            <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/features-2.png" class="img-fluid" alt="img-keunggulan-2">
+            </div>
+            <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+              <h3>Klaim Reward Lebih Mudah dengan Sistem Scan Kode Unik</h3>
+              <p class="fst-italic">
+                Nikmati kemudahan mengumpulkan dan menukarkan reward dengan teknologi scan kode unik.
+              </p>
+              <ul>
+                <li><i class="bi bi-check"></i><span><b>Sistem Reward Otomatis</b> untuk untuk setiap sampah yang
+                    dikumpulkan.</span></li>
+                <li><i class="bi bi-check"></i><span><b>Proses Cepat Dan Praktis</b> dengan hanya perlu registrasi
+                    pengguna.</span></li>
+                <li><i class="bi bi-check"></i><span><b>Dukung Gerakan Ramah Lingkungan</b> dengan memilah sampah,
+                    terutama botol plastik.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="interface" class="gallery section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tampilan Aplikasi</h2>
+        <p>Inilah Tampilan Aplikasi yang Kami Kembangkan untuk Mempermudah Pemantauan Sampah & Poin!</p>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 1500,
+              "autoplay": {
+                "delay": 50
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 7,
+                  "spaceBetween": 30
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-1.png"><img src="assets/img/app-gallery/app-gallery-1.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-2.png"><img src="assets/img/app-gallery/app-gallery-2.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-3.png"><img src="assets/img/app-gallery/app-gallery-3.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-4.png"><img src="assets/img/app-gallery/app-gallery-4.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-5.png"><img src="assets/img/app-gallery/app-gallery-5.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-6.png"><img src="assets/img/app-gallery/app-gallery-6.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-7.png"><img src="assets/img/app-gallery/app-gallery-7.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-8.png"><img src="assets/img/app-gallery/app-gallery-8.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-9.png"><img src="assets/img/app-gallery/app-gallery-9.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-10.png"><img src="assets/img/app-gallery/app-gallery-10.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-11.png"><img src="assets/img/app-gallery/app-gallery-11.png"
+                  class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full"
+                href="assets/img/app-gallery/app-gallery-12.png"><img src="assets/img/app-gallery/app-gallery-12.png"
+                  class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="testimonials" class="testimonials section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimoni Kami</h2>
+        <p>Berikut Beberapa Testimoni tentang robot WasteWise+ Dari Tim Kami</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 1250,
+              "autoplay": {
+                "delay": 2500
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="img-profile-1">
+                  <h3>Ahnaf Samih Al-Farisi</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>WasteWise+ bukan cuma alat, tapi juga edukasi! Anak-anak di sekolah kami jadi lebih sadar akan
+                      pentingnya memilah sampah karena ada sistem reward yang menarik!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="img-profile-2">
+                  <h3>Fahad Daffa Athaillah</h3>
+                  <h4>Administrator</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Gampang banget dipakai! Saya bisa pantau kontribusi saya terhadap lingkungan langsung dari
+                      aplikasi. WasteWise+ bikin pengelolaan sampah jadi lebih modern!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="img-profile-3">
+                  <h3>Maulana Ahmad Zakaria</h3>
+                  <h4>Manager &amp; Co-Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Robot ini benar-benar membantu memilah sampah secara otomatis. Sangat praktis dan cocok untuk
+                      diterapkan di sekolah atau kantor!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="img-profile-4">
+                  <h3>Andhika Dida Dinovic</h3>
+                  <h4>Support</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Dengan WasteWise+, saya jadi lebih semangat memilah sampah karena bisa dapat poin. Selain
+                      membantu lingkungan, saya juga bisa menukar poin dengan hadiah keren!</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="faq" class="faq section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pertanyaan Yang Sering Ditanyakan</h2>
+        <p>Berikut Beberapa Pertanyaan Yang Sering Diajukan Kepada Tim Kami</p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="faq-container" data-aos="fade-up" data-aos-delay="250">
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Bagaimana cara kerja WasteWise+?</h3>
+                <div class="faq-content">
+                  <p>WasteWise+ menggunakan teknologi IoT dan sensor pintar untuk memilah sampah secara otomatis
+                    berdasarkan jenisnya. Setiap kali kamu membuang sampah yang sesuai, sistem akan mencatat dan
+                    memberikan poin yang bisa ditukar dengan hadiah.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apa saja jenis sampah yang bisa didaur ulang di WasteWise+?</h3>
+                <div class="faq-content">
+                  <p>Saat ini, WasteWise+ mendukung pemilahan Botol Plastik, Kertas atau kardus, dan Logam. Sampah yang
+                    bisa didaur ulang akan mendapatkan poin sebagai bentuk apresiasi.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Bagaimana cara mendapatkan dan menggunakan poin?</h3>
+                <div class="faq-content">
+                  <p>Poin akan otomatis masuk ke akun aplikasi setelah kamu membuang sampah yang sesuai. Poin ini bisa
+                    ditukarkan dengan hadiah menarik melalui aplikasi WasteWise+.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apakah WasteWise+ bisa digunakan di sekolah atau kantor?</h3>
+                <div class="faq-content">
+                  <p>Tentu! WasteWise+ dirancang untuk berbagai tempat seperti sekolah, kantor, pusat perbelanjaan, dan
+                    fasilitas umum lainnya agar pengelolaan sampah lebih efisien dan interaktif.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Bagaimana cara menghubungkan mesin dengan aplikasi?</h3>
+                <div class="faq-content">
+                  <p>Cukup scan QR Code pada Struk yang dikeluarkan oleh mesin menggunakan aplikasi WasteWise+. Sistem
+                    akan otomatis mengenali akunmu dan mencatat aktivitas pembuangan sampah secara real-time.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Berlangganan</h4>
+            <p>Berlangganan Berita Terbaru Dari Kami Melalui Alamat Email</p>
+            <form action="" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="">
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-12 footer-about">
+          <a href="/#" class="d-flex align-items-center">
+            <span class="sitename">WasteWise+</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Kami adalah tim inovator Dari <b>Siswa MAN 5 Jakarta</b> yang peduli terhadap lingkungan dan ingin mengubah cara masyarakat dalam mengelola sampah melalui teknologi.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+62 878-6476-0166</span> [ WhatsApp ]</p>
+            <p><strong>Email:</strong> <span>wastewise@man5jakarta.sch.id</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-links">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#home">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#features">Keunggulan</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#interface">Tampilan Aplikasi</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+          <h4>Ikuti Kami</h4>
+          <p>Follow dan Pantau Akun Sosial Media Tim & Sekolah Kami Dibawah Ini</p>
+          <div class="social-links d-flex">
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-envelope"></i></a>
+            <a href="#"><i class="bi bi-globe"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>©<span>Copyright 2025</span><strong class="px-1 sitename">FarSyaFad Tech.</strong><span>All Rights Reserved</span></p>
+      <div class="credits">
+        Template by <a href="https://bootstrapmade.com/">BootstrapMade</a>, and Designed By <a href="https://farsyafad.tech/">Ahnaf Samih</a> With 🧑‍💻☕❤️
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
